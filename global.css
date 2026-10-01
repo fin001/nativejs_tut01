@@ -1,0 +1,87 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+@import "nativewind/theme";
+@import "./src/theme/tokens.css";
+
+@utility type-h1 {
+	color: var(--color-text-primary);
+	font-family: var(--font-poppins-bold);
+	font-size: var(--text-h1);
+	line-height: var(--leading-h1);
+}
+
+@utility type-h2 {
+	color: var(--color-text-primary);
+	font-family: var(--font-poppins-semibold);
+	font-size: var(--text-h2);
+	line-height: var(--leading-h2);
+}
+
+@utility type-h3 {
+	color: var(--color-text-primary);
+	font-family: var(--font-poppins-semibold);
+	font-size: var(--text-h3);
+	line-height: var(--leading-h3);
+}
+
+@utility type-h4 {
+	color: var(--color-text-primary);
+	font-family: var(--font-poppins-medium);
+	font-size: var(--text-h4);
+	line-height: var(--leading-h4);
+}
+
+@utility type-body-large {
+	color: var(--color-text-primary);
+	font-family: var(--font-poppins-regular);
+	font-size: var(--text-body-large);
+	line-height: var(--leading-body);
+}
+
+@utility type-body-medium {
+	color: var(--color-text-primary);
+	font-family: var(--font-poppins-regular);
+	font-size: var(--text-body-medium);
+	line-height: var(--leading-body);
+}
+
+@utility type-body-small {
+	color: var(--color-text-primary);
+	font-family: var(--font-poppins-regular);
+	font-size: var(--text-body-small);
+	line-height: var(--leading-body);
+}
+
+@utility type-caption {
+	color: var(--color-text-secondary);
+	font-family: var(--font-poppins-regular);
+	font-size: var(--text-caption);
+	line-height: var(--leading-caption);
+}
+
+@utility text-primary {
+	color: var(--color-text-primary);
+}
+
+@utility text-secondary {
+	color: var(--color-text-secondary);
+}
+
+@utility surface-screen {
+	background-color: var(--color-background);
+}
+
+@utility surface-muted {
+	background-color: var(--color-surface);
+}
+
+@utility surface-card {
+	background-color: var(--color-background);
+	border-radius: var(--radius-card);
+	box-shadow: var(--shadow-card);
+}
+
+@utility border-divider {
+	border-color: var(--color-border);
+}
